@@ -1,0 +1,228 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>AI Portfolio | Tushar Sharma</title>
+
+<style>
+*{
+    margin:0;
+    padding:0;
+    box-sizing:border-box;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+body{
+    background:#0f172a;
+    color:white;
+    line-height:1.6;
+}
+
+/* Navbar */
+nav{
+    background:#020617;
+    padding:15px 50px;
+    display:flex;
+    justify-content:space-between;
+    align-items:center;
+}
+
+nav h2{
+    color:#38bdf8;
+}
+
+nav ul{
+    list-style:none;
+    display:flex;
+    gap:20px;
+}
+
+nav a{
+    color:white;
+    text-decoration:none;
+    font-size:14px;
+}
+
+nav a:hover{
+    color:#38bdf8;
+}
+
+/* Hero Section */
+.hero{
+    text-align:center;
+    padding:80px 20px;
+}
+
+.hero h1{
+    font-size:40px;
+}
+
+.hero span{
+    color:#38bdf8;
+}
+
+.hero p{
+    margin:15px 0;
+    color:#cbd5f5;
+}
+
+.btn{
+    display:inline-block;
+    padding:12px 25px;
+    background:#38bdf8;
+    color:black;
+    border-radius:5px;
+    text-decoration:none;
+    margin-top:15px;
+}
+
+/* Sections */
+section{
+    padding:60px 10%;
+}
+
+h2{
+    text-align:center;
+    margin-bottom:40px;
+    color:#38bdf8;
+}
+
+/* About */
+.about{
+    text-align:center;
+    max-width:800px;
+    margin:auto;
+    color:#cbd5f5;
+}
+
+/* Skills */
+.skills{
+    display:grid;
+    grid-template-columns:repeat(auto-fit,minmax(200px,1fr));
+    gap:20px;
+}
+
+.card{
+    background:#1e293b;
+    padding:25px;
+    border-radius:10px;
+    text-align:center;
+}
+
+/* Projects */
+.projects{
+    display:grid;
+    grid-template-columns:repeat(auto-fit,minmax(250px,1fr));
+    gap:20px;
+}
+
+.project-card{
+    background:#1e293b;
+    padding:20px;
+    border-radius:10px;
+}
+
+.project-card h3{
+    color:#38bdf8;
+}
+
+/* Contact */
+.contact{
+    text-align:center;
+}
+
+footer{
+    background:#020617;
+    text-align:center;
+    padding:20px;
+    margin-top:40px;
+    color:#94a3b8;
+}
+</style>
+</head>
+
+<body>
+
+<!-- Navbar -->
+<nav>
+<h2>TS AI</h2>
+<ul>
+<li><a href="#about">About</a></li>
+<li><a href="#skills">Skills</a></li>
+<li><a href="#projects">Projects</a></li>
+<li><a href="#contact">Contact</a></li>
+</ul>
+</nav>
+
+<!-- Hero -->
+<div class="hero">
+<h1>Hello, I'm <span>Tushar Sharma</span></h1>
+<p>AI Developer | Cybersecurity Learner | Web Developer</p>
+<a href="#contact" class="btn">Hire Me</a>
+</div>
+
+<!-- About -->
+<section id="about">
+<h2>About Me</h2>
+<div class="about">
+<p>
+I am passionate about Artificial Intelligence, Cybersecurity, and Web Development.  
+I build AI systems, secure applications, and modern websites.  
+My goal is to create smart and secure digital solutions that solve real-world problems.
+</p>
+</div>
+</section>
+
+<!-- Skills -->
+<section id="skills">
+<h2>Skills</h2>
+<div class="skills">
+<div class="card">HTML & CSS</div>
+<div class="card">JavaScript</div>
+<div class="card">Python & AI</div>
+<div class="card">Cybersecurity</div>
+<div class="card">React Basics</div>
+<div class="card">Blockchain Basics</div>
+</div>
+</section>
+
+<!-- Projects -->
+<section id="projects">
+<h2>Projects</h2>
+<div class="projects">
+
+<div class="project-card">
+<h3>NAINA AI</h3>
+<p>Personal AI assistant with voice interaction using Python.</p>
+</div>
+
+<div class="project-card">
+<h3>Cybersecurity Learning Platform</h3>
+<p>Website to teach ethical hacking and security basics.</p>
+</div>
+
+<div class="project-card">
+<h3>Secure File Sharing</h3>
+<p>Blockchain-based file sharing system using IPFS.</p>
+</div>
+
+</div>
+</section>
+
+<!-- Contact -->
+<section id="contact">
+<h2>Contact Me</h2>
+<div class="contact">
+<p>Email: yourname@email.com</p>
+<p>LinkedIn: linkedin.com/in/yourname</p>
+<a href="#" class="btn">Download Resume</a>
+</div>
+</section>
+
+<footer>
+© 2026 Tushar Sharma | AI Portfolio
+</footer>
+
+</body>
+</html>
